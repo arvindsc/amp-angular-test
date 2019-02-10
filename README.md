@@ -35,8 +35,8 @@ Develop a simple Shopping cart application.
 # Demo via stackblitz
 https://stackblitz.com/github/ampdigital/interview-angular
 
-# Submit your code
-Simply fork this repository to get your copy to work on. Make your copy private but visible to onetonnesam@gmail.com.
+# Submit your code - RTFM
+Simply <B>fork this repository to get your copy to work on. Make your copy private</B> but visible to onetonnesam@gmail.com.
 Once you are ready to submit, create a pull request.
 Please refer to https://guides.github.com/activities/forking/
 
