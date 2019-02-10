@@ -33,6 +33,7 @@ Develop a simple Shopping cart application.
 - Performance focus
 
 # Demo via stackblitz
+-The reason I ask you to do this in your own github repo is so we can load your code into stackblitz. So the link below is not a real demo. I will be loading your repo into stackblitz to assess your code and functionality.
 https://stackblitz.com/github/ampdigital/interview-angular
 
 # Submit your code - RTFM
