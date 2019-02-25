@@ -1,0 +1,11 @@
+<div class="container-fluid">
+  <div class="row m-2">
+    <div class="col-sm-12 col-md-6" >
+      <cart-actions [products]="products" [selectedProduct]="selectedProduct" (productChange)="onProductChange($event)"
+        (addItem)="onCartAdd($event)"></cart-actions>
+    </div>
+    <div class="col-sm-12 col-md-6 order-first order-md-0">
+      <cart-list [cartItems]="cartItems" (delete)="onCartItemDelete($event)" (select)="onCartItemSelect($event)"></cart-list>
+    </div>
+  </div>
+</div>
