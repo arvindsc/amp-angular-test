@@ -23,7 +23,7 @@ export class CartListComponent implements OnChanges {
   public onItemSelect(product) {
     this.select.emit(product);
   }
-  private computeTotal() {
+  public computeTotal() {
    this.cartTotal=0;
     const reducer = (accumulator, product: Product) => accumulator + product.productPrice*product.productQuantity;
     this.cartTotal = this.cartItems.reduce(reducer,  this.cartTotal);

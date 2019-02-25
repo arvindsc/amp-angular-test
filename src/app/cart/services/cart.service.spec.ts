@@ -35,8 +35,7 @@ describe('ViewsService', () => {
   });
 
   it('should get all products', () => {
-    spyOn(http, 'get').and.returnValue(of({ default: { products: mockData.productsDetails } }));
-
+    spyOn(http, 'get').and.returnValue(of({ default: { productsDetails: mockData.productsDetails } }));
     service.getProducts().subscribe(result => {
       expect(result).toEqual(mockData.productsDetails);
     });
